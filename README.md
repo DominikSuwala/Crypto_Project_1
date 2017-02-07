@@ -22,18 +22,18 @@ On Windows
 
 On Linux / OS X
 
-> java -classpath "pj2.jar:." Encrypt {HEX_128_BIT_KEY} {HEX_64_BIT_DATA}
+> java -classpath "pj2.jar:." {Encrypt, Decrypt} {HEX_128_BIT_KEY} {HEX_64_BIT_DATA}
 
 On Windows
 
-> java -classpath "pj2.jar;." {Encrypt/Decrypt} {HEX_128_BIT_KEY} {HEX_64_BIT_DATA}
+> java -classpath "pj2.jar;." {Encrypt, Decrypt} {HEX_128_BIT_KEY} {HEX_64_BIT_DATA}
 
 {EncryptFile/DecryptFile} - Encrypt/Decrypt a file using ARK1 in ECB mode.
 
 On Linux / OS X
 
-> java -classpath "pj2.jar:." {EncryptFile/DecryptFile} {HEX_128_BIT_KEY} {INPUT_FILE} {OUTPUT_FILE}
+> java -classpath "pj2.jar:." {EncryptFile, DecryptFile} {HEX_128_BIT_KEY} {INPUT_FILE} {OUTPUT_FILE}
 
 On Windows
 
-> java -classpath "pj2.jar;." {EncryptFile/DecryptFile} {HEX_128_BIT_KEY} {INPUT_FILE} {OUTPUT_FILE}
+> java -classpath "pj2.jar;." {EncryptFile, DecryptFile} {HEX_128_BIT_KEY} {INPUT_FILE} {OUTPUT_FILE}
