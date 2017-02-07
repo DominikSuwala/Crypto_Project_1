@@ -2,6 +2,8 @@
 
 A project for a cryptography course at RIT.
 
+![alt tag](https://raw.githubusercontent.com/DominikSuwala/Crypto_Project_1/master/ark1_key_schedule.png)
+
 ## Project Specifications:
 
 https://www.cs.rit.edu/~ark/spring2014/462/p1/p1.shtml
